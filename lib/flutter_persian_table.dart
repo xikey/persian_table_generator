@@ -3,8 +3,8 @@ import 'package:flutter_persian_table/src/pr_table_data.dart';
 
 
 
-class PersianTableWidget extends StatefulWidget {
-  const PersianTableWidget({
+class FlutterPersianTable extends StatefulWidget {
+  const FlutterPersianTable({
     Key? key,
     required this.columnHeaders,
     required this.tableHeight,
@@ -16,10 +16,10 @@ class PersianTableWidget extends StatefulWidget {
   final double tableHeight;
 
   @override
-  _PersianTableWidgetState createState() => _PersianTableWidgetState();
+  _FlutterPersianTableState createState() => _FlutterPersianTableState();
 }
 
-class _PersianTableWidgetState extends State<PersianTableWidget> {
+class _FlutterPersianTableState extends State<FlutterPersianTable> {
   static const int itemsPerPage = 50;
   int currentPage = 0;
 
