@@ -1,8 +1,8 @@
 name: flutter_persian_table
 description: A Flutter widget to display data in a tabular format with pagination.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/xikey/persian_table_generator
-publish_to: https://pub.dev
+
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43

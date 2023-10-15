@@ -16,7 +16,7 @@ Add the latest version of package to your pubspec.yaml:
 
 ```yaml
 dependencies:
-zikey_data_table: ^0.0.1
+flutter_persian_table: ^0.0.2 
 ```
 Import the package:
 
@@ -55,7 +55,7 @@ See the example for sample usage.
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: PersianTableWidget(
+        body: FlutterPersianTable(
           columnHeaders: header,
           tableHeight: double.infinity,
           tableData: rowItems,
